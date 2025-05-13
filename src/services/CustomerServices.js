@@ -1,7 +1,9 @@
 // src/services/CustomerService.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/customers';
+//const API_URL = 'http://localhost:8080/api/customers';
+//const API_URL = 'http://springboot-service.default.svc.cluster.local:8080/api/customers';
+const API_URL = 'http://135.224.223.165/api/customers';
 
 export const getCustomers = async () => {
     try {
